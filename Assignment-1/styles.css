@@ -67,6 +67,32 @@ main {
   height: 80vh;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* You can apply styling to two classes at once using a comma, you talk to both at the same time here */
+.left,
+.right {
+  /*Want it to fill each portion of the screen halfway, and take up most of the view height now*/
+  width: 50%;
+  height: 88vh;
+}
+
+.right {
+  background-color: cyan;
+  float: right;
+  height: 88vh;
+}
+
+.left {
+  background-color: yellow;
+  float: left;
+  height: 88vh;
+}
+
 footer {
   height: 10vh;
   background-color: green;
