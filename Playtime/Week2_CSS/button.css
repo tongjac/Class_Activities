@@ -1,0 +1,29 @@
+.para1 {
+  font-size: 25px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  /* Transition: TARGET, DURATION, TYPE OF TRANSITION 
+  Note: Transition cannot target the element itself. Recursion does not allow.*/
+  transition: all 0.7s ease-in-out;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+}
+
+button:hover {
+  background-color: black;
+  transform: translate(5px, -10px);
+  /* Box Shadow: x-axis, y-axis, color of shadow */
+  box-shadow: 5px 5px #1aa000;
+}
+
+button:focus {
+  background-color: maroon;
+}
+/* BUTTON > HOVER > FOCUS > ACTIVE, must be in that order otherwise Active's class is overwritten by Focus */
+button:active {
+  background-color: chartreuse;
+}
