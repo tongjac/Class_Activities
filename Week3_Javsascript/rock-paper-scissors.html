@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   for (let age = 0; age < 5; age++) {
+      //     console.log("I am " + age + ".");
+      //   }
+
+      // let myFarm = ["chickens", "pigs", "cows", "horses", "ostriches"];
+      // for (let fr = 0; fr < myFarm.length; ++fr) {
+      // "fr" goes for index in the array for word. the [0] that follows after goes for the FIRSLETTER inside the word in the array.
+      //   if (myFarm[fr][0] === "c" || myFarm[fr][0] === "o") {
+      //     console.log(myFarm[fr]);
+      //   }
+      // }
+      let userInput = prompt("Choose one: rock, paper, scissors");
+      let computerChoice = ["rock", "paper", "scissors"];
+      let compRNG = Math.floor(Math.random() * 3);
+      console.log(computerChoice[compRNG]);
+    </script>
+  </body>
+</html>

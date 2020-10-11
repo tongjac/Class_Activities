@@ -1,0 +1,33 @@
+/* button {
+  background-color: orange;
+  color: darkgray;
+  transition: all 1s ease-in-out;
+  font-size: 25px;
+  text-decoration: none;
+  margin: 5px 5px;
+} */
+
+/*Jamly Miller's Test Code for Button (Background Color works)*/
+button {
+  color: blueviolet;
+  transition: 0.5s ease-in-out;
+  font-size: 25px;
+  outline: mediumseagreen;
+  outline-style: dotted;
+  font-style: italic;
+  background-color: yellow;
+}
+
+button:hover {
+  background-color: red;
+}
+
+button:focus {
+  color: purple;
+  transform: translate(50px -50px);
+}
+
+button:active {
+  font-size: 60px;
+  padding: 10px;
+}

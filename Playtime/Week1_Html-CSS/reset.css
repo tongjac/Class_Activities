@@ -1,7 +1,0 @@
-/* Wild card element / class / identity call goes for everything*/
-/*We're using this to "Reset" the navigation menu after people press buttons and text.*/
-* {
-  margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /*This font list goes through the list from start to finish to what your browser can display*/
-}
